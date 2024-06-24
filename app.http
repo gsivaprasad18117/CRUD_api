@@ -1,0 +1,24 @@
+post http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name":"dosa",
+    "quantity":5,
+    "price":3.99
+}
+
+###
+put http://localhost:3000/api/products/6676e18fa0836cbe49feec29
+Content-Type: application/json
+
+{
+    "name":"pizzarino"
+}
+
+###
+
+get http://localhost:3000/api/products
+
+###
+
+delete http://localhost:3000/api/products/6679a7e3ba0451956dc4ea52
