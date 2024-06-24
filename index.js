@@ -16,6 +16,6 @@ mongoose.connect('mongodb+srv://gsivaprasad69:hr1splChRVj3o9Tm@backenddb.ieoehwa
   .then(() => {
     console.log('Connected!')
     app.listen(3000,()=>{
-        console.log("server is running in 3000")
+        console.log("Server is running in 3000")
     })
   });
